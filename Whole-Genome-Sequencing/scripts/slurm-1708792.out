@@ -1,0 +1,39 @@
+ 
+ ****************************************************************************** 
+ *                                                                            * 
+ *               STARTING 270bd74b-5dac-32e3-9451-92ef5c6b0c76                * 
+ *                                                                            * 
+ ****************************************************************************** 
+ executing: ds-cgpmap.pl
+Options loaded: 
+$VAR1 = {
+          'c' => 0,
+          'sc' => '',
+          'g' => '/work/ReadGroupsYAML/ReadGroups_G37-B14.yaml',
+          'f' => '0.05',
+          'r' => '/var/spool/ref',
+          'i' => '/var/spool/ref',
+          'o' => 'bam_out/G37-B14',
+          't' => 24,
+          'csi' => 0,
+          'q' => 0,
+          'b' => '',
+          's' => 'G37-B14'
+        };
+
+
+Start workflow: Thu May 17 00:51:21 UTC 2018
+
+Loading user options from: bam_out/G37-B14/run.params
+	SAMPLE_NAME : G37-B14
+	INPUT : /var/spool/AH2HCKDSXX/G37-B14_*_[12].fastq.gz /var/spool/AH2H7HDSXX/G37-B14_*_[12].fastq.gz /var/spool/S2FLOWCELL/G37-B14_*_[12].fastq.gz
+	REF_BASE : /var/spool/ref
+	CRAM : 0
+	CSI : 0
+	MMQC : 0
+	SCRAMBLE : <NOTSET>
+	BWA_PARAM : <NOTSET>
+	GROUPINFO : /work/ReadGroupsYAML/ReadGroups_G37-B14.yaml
++ bash -c '/usr/bin/time -f command:%C\\nreal:%e\\nuser:%U\\nsys:%S\\npctCpu:%P\\ntext:%Xk\\ndata:%Dk\\nmax:%Mk\\n -o bam_out/G37-B14/G37-B14.bam.maptime  bwa_mem.pl -o bam_out/G37-B14  -r /var/spool/ref/genome.fa  -s G37-B14  -f 1000000  -t 24  -mt 24   -l /usr/lib/libtcmalloc_minimal.so -g /work/ReadGroupsYAML/ReadGroups_G37-B14.yaml  /var/spool/AH2HCKDSXX/G37-B14_*_[12].fastq.gz /var/spool/AH2H7HDSXX/G37-B14_*_[12].fastq.gz /var/spool/S2FLOWCELL/G37-B14_*_[12].fastq.gz'
+"/usr/bin/time /home/ubuntu/bam_out/G37-B14/tmpMap_G37-B14/logs/PCAP_Bwa_bwa_mem.1.sh 1> /home/ubuntu/bam_out/G37-B14/tmpMap_G37-B14/logs/PCAP_Bwa_bwa_mem.1.out 2> /home/ubuntu/bam_out/G37-B14/tmpMap_G37-B14/logs/PCAP_Bwa_bwa_mem.1.err" unexpectedly returned exit value 1 at (eval 46) line 12.
+ at /opt/wtsi-cgp/lib/perl5/PCAP/Threaded.pm line 268

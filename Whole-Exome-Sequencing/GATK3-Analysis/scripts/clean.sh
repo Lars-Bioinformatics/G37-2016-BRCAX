@@ -1,0 +1,1 @@
+rm -rf *_coverage_codingexons* *_HS_Metrics.txt *_recal* log_file* slurm* duplicate* samtools* *bam

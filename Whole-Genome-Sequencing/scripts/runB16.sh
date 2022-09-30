@@ -1,0 +1,1 @@
+sbatch /work/sduvarcall/G37-2016-BRCAX-Genomes/scripts/sbatch_udocker-cgpmap.sh G37-B16

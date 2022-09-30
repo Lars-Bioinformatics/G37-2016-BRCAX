@@ -1,0 +1,50 @@
+fam03351:
+    pair1:
+        normal: G37-01226-06_nimblegen-exome-utr_C2FAGACXX
+        tumor: G37-A085_nimblegen-exome-utr_C2FAGACXX
+
+fam03529:
+    pair1:
+        normal: G37-01230-06_nimblegen-exome-utr_C2FAGACXX
+        tumor: G37-A099_nimblegen-exome-utr_C2FAGACXX
+
+fam04320:
+    pair1:
+        normal: G37-00562-07_nimblegen-exome-utr_C2FAGACXX
+        tumor: G37-A097_nimblegen-exome-utr_C2FAGACXX
+
+fam04515:
+    pair1:
+        normal: G37-01036-02_nimblegen-exome-utr_C2FAGACXX
+        tumor: G37-A064_nimblegen-exome-utr_C2FAGACXX
+
+fam04591:
+    pair1:
+        normal: G37-00945-05_nimblegen-exome-utr_C2FAGACXX
+        tumor: G37-A077_nimblegen-exome-utr_C2FAGACXX
+    pair2:
+        normal: G37-00995-02_nimblegen-exome-utr_C2FAGACXX
+        tumor: G37-A026_nimblegen-exome-utr_C2FAGACXX
+
+fam04594:
+    pair1:
+        normal: G37-03692-12_nimblegen-exome-utr_C2FAGACXX
+        tumor: G37-A061_nimblegen-exome-utr_C2FAGACXX
+    pair2:
+        normal: G37-00227-04_nimblegen-exome-utr_C2FAGACXX
+        tumor: G37-A044_nimblegen-exome-utr_C2FAGACXX
+
+fam04694:
+    pair1:
+        normal: G37-00151-07_nimblegen-exome-utr_C1NEGACXX
+        tumor: G37-A083_nimblegen-exome-utr_C1NEGACXX
+
+fam04784:
+    pair1:
+        normal: G37-00480-03_nimblegen-exome-utr_C1NEGACXX
+        tumor: G37-A055_nimblegen-exome-utr_C1NEGACXX
+
+fam05380:
+    pair1:
+        normal: G37-00746-04_nimblegen-exome-utr_C1NEGACXX
+        tumor: G37-A074_nimblegen-exome-utr_C1NEGACXX

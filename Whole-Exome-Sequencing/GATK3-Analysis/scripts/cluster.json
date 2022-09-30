@@ -1,0 +1,13 @@
+{
+    "__default__" :
+    {
+        "account" : "sduvarcall_slim",
+        "time" : "10:00:00",
+        "n" : 24,
+		"partition" : "slim"
+    },
+    "compute1" :
+    {
+        "time" : "00:20:00"
+    }
+}
